@@ -1,0 +1,38 @@
+! Title: Hide Atlassian AI Features
+! Description: Hides Atlassian's AI features across Jira and Confluence (WIP)
+! Version: 2026.10.30
+! Last modified: 2026-10.30 14:00
+! Expires: 1 day
+! Homepage: https://github.com/mlmiltcheva/atlassian-ai-filter
+! License: https://github.com/mlmiltcheva/atlassian-ai-filter/blob/main/LICENSE.md
+
+atlassian.net##[data-testid="atlassian-navigation.ui.conversation-assistant.app-navigation-ai-mate"]
+atlassian.net##[data-testid="layout-controller.ui.bottom-right-corner.container.styled-container"]:has([data-testid='platform-ai-button'])
+atlassian.net##[data-testid="search-dialog"] > [aria-label="Search Results"]
+atlassian.net##[data-testid="search-dialog"] > div :has([data-testid="qf-product-filters"])
+atlassian.net##[data-testid="search-dialog"] > div:has([aria-label="navigate-single-site-icon"])
+atlassian.net##[data-testid="quick-find-connect-apps-pill"]
+atlassian.net##[data-testid="issue-create-modernised.ui.footer.platform-feedback-collector"]
+atlassian.net##[aria-controls="myAgentsSessions-tab-panel"]
+atlassian.net##[data-testid="work-item-agents-button.button"]
+atlassian.net##[data-toolbar-component="section"]:has([data-testid="editor-toolbar__ask-rovo"])
+atlassian.net##[data-testid="summary-development-field.ui.summary.connect-dev-tools-summary-item.summary-item"]
+atlassian.net##[data-testid="development-summary-development-field.ui.summary.deeplink-summary-item.summary-item"]
+atlassian.net##[data-testid="work-item-layout.empty-state-quick-actions"]
+atlassian.net##[data-comment-editor-footer="true"] > :first-child
+atlassian.net##[data-testid="atlassian-navigation--secondary-actions--help--menu-trigger"]
+atlassian.net###project-nav-add-agents
+atlassian.net##div[role="presentation"]:has([data-testid="feedback-button.horizontal-nav-feedback-button"])
+atlassian.net##section[data-testid="work-item-modal.modal-dialog"] > div:has([data-spotlight-target="rovo-ai-button"])
+atlassian.net##[data-testid="activity-feed.overflow-menu--menu-wrapper--menu-group"] > div > div:has([data-testid="issue-smart-request-summary-trigger.ui.jira-smart-summary-menu-item"])
+atlassian.net##[data-testid="side-panel-floating-panel"]
+atlassian.net##[data-vc="jql-builder-with-ai"] > div > div:has([data-testid="atlassian-intelligence.common.ui.ai-icon.svg-icon"])
+atlassian.net###horizontal-nav-tabs-DEVELOPMENT
+atlassian.net##button:has(span[aria-label="Summarize release"])
+atlassian.net###work-item-activity-feed-tabpanel > div:has([data-testid="issue-smart-request-summary.ui.ai-container"])
+atlassian.net##fieldset > div:has(button[data-testid="field-status.work-item"])
+
+! Jira automations are required for some workflows and so are not hidden 
+!atlassian.net##[data-testid="work-item-layout.automation-section-wrapper"]
+!atlassian.net##div[role="presentation"]:has(button[data-vc="automation-menu-button"])
+!atlassian.net##[data-testid="work-item-layout.automation-section"]
