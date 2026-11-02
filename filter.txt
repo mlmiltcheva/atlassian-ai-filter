@@ -49,3 +49,16 @@ atlassian.net##div[data-testid="ai-work-breakdown.ui.issue-breakdown-draft-list"
 atlassian.net##div[aria-label="Linked work items section"] > div:first-child
 
 ! Confluence
+atlassian.net##span[data-testid="app-navigation-ai-mate"]
+atlassian.net##div[data-testid="feed-card"] > div > div > div > div > div:nth-child(2)
+atlassian.net##div[data-testid="activity-feed"] > div[data-testid="feed-header"] + div:has(span[aria-label="Summaries use AI. Verify results."])
+atlassian.net###tabpanel-following > div:has(div[data-testid="feed-rec-tiles-wrapper"])
+atlassian.net##div[data-testid="page-card-popup-view"] > div > div:nth-child(2)
+atlassian.net##div[data-vc="object-sidebar-container"]
+! selecting off of the 'ai' icon svg
+atlassian.net##div[data-testid="search-page-result"] > div > div:last-child:has(path[d="M0 3.125A2.625 2.625 0 0 1 2.625.5H8V2H2.625C2.004 2 1.5 2.504 1.5 3.125v10.832L4.05 12.5h9.325c.621 0 1.125-.504 1.125-1.125V8.5H16v2.875A2.625 2.625 0 0 1 13.375 14H4.449l-3.327 1.901A.75.75 0 0 1 0 15.25z"])
+atlassian.net##button[data-testid="search-result-summarize-in-chat"]
+atlassian.net##div[data-testid="search-page-results-list"] > div[role="listitem"]:has(h4:has-text("Related searches"))
+atlassian.net##div[data-toolbar-component="section"]:has(button[data-testid="context-menu-rovo-chat-button"])
+atlassian.net##span[data-testid="definition-highlighter"]:remove-attr("style")
+atlassian.net##span[data-testid="definition-highlighter"]:style(pointer-events: none)
