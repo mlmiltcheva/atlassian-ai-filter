@@ -37,7 +37,6 @@ atlassian.net##div[data-testid="add-linked-issues.ai-suggestions-slot"]
 
 ! Jira (Old Experience)
 atlassian.net##button:has(span:has-text('Summarize work item'))
-atlassian.net##button:has(span:has-text('Summarize work item'))
 atlassian.net##div[role='presentation']:has(button:has(span:has(svg) + span:has-text(Agents)))
 atlassian.net##div[data-testid="issue.views.issue-base.foundation.status.actions-wrapper"]
 atlassian.net##div[data-testid="issue.views.issue-base.foundation.status.improve-issue"]
