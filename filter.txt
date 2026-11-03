@@ -46,7 +46,6 @@ atlassian.net##button[data-testid="issue-smart-request-summary-trigger.ui.jira-s
 atlassian.net##div[aria-label="Quick comments"]
 atlassian.net##fieldset > div:has(button > span:has-text("Explain workflow"))
 atlassian.net##div[data-testid="ai-work-breakdown.ui.issue-breakdown-draft-list"]
-atlassian.net##div[aria-label="Linked work items section"] > div:first-child
 
 ! Confluence
 atlassian.net##span[data-testid="app-navigation-ai-mate"]
