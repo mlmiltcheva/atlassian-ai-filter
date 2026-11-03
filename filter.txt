@@ -34,6 +34,8 @@ atlassian.net###work-item-activity-feed-tabpanel > div:has([data-testid="issue-s
 atlassian.net##fieldset > div:has(button[data-testid="field-status.work-item"])
 atlassian.net##div[role="presentation"]:has([data-vc="automation-menu-button"])
 atlassian.net##div[data-testid="add-linked-issues.ai-suggestions-slot"]
+atlassian.net##span[class="acronym-highlight"]:remove-attr("style")
+atlassian.net##span[class="acronym-highlight"]:style(pointer-events: none)
 
 ! Jira (Old Experience)
 atlassian.net##button:has(span:has-text("Summarize work item"))
