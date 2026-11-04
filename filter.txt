@@ -27,7 +27,7 @@ atlassian.net##div[role="presentation"]:has([data-testid="feedback-button.horizo
 atlassian.net##section[data-testid="work-item-modal.modal-dialog"] > div:has([data-spotlight-target="rovo-ai-button"])
 atlassian.net##[data-testid="activity-feed.overflow-menu--menu-wrapper--menu-group"] > div > div:has([data-testid="issue-smart-request-summary-trigger.ui.jira-smart-summary-menu-item"])
 atlassian.net##[data-testid="side-panel-floating-panel"]
-atlassian.net##[data-vc="jql-builder-with-ai"] > div > div:has([data-testid="atlassian-intelligence.common.ui.ai-icon.svg-icon"])
+atlassian.net##div[data-testid="jql-builder.ui.editor-anchor"] > div > ul > li:has([data-testid="atlassian-intelligence.common.ui.ai-icon.svg-icon"])
 atlassian.net###horizontal-nav-tabs-DEVELOPMENT
 atlassian.net##button:has(span[aria-label="Summarize release"])
 atlassian.net###work-item-activity-feed-tabpanel > div:has([data-testid="issue-smart-request-summary.ui.ai-container"])
