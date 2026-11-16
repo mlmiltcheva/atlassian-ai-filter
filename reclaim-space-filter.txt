@@ -1,0 +1,27 @@
+! Title: Reclaim UI Space in Jira Cloud
+! Description: Reclaim UI Space in Jira Cloud
+! Version: 2026.11.16
+! Last modified: 2026-11.16 13:00
+! Expires: 1 day
+! Homepage: https://github.com/mlmiltcheva/atlassian-ai-filter
+! License: https://github.com/mlmiltcheva/atlassian-ai-filter/blob/main/LICENSE.md
+
+! Left sidebar
+atlassian.net##[data-testid="page-layout.sidebar"] div:has(div[role="list"]):style(padding-left: 0 !important; padding-right: 0 !important;)
+
+! Right sidebar
+atlassian.net##[data-testid="issue.views.issue-details.issue-layout.container-right"]:style(padding-left: 0px !important)
+atlassian.net##[data-testid="issue.views.issue-details.issue-layout.right-most-column"]:style(padding-left: 0 !important; padding-right: 4px !important;)
+
+! Right sidebar slider
+atlassian.net##[data-testid="flex-resizer.ui.handle.resizer"]:style(width: 4px !important)
+
+! Main content
+atlassian.net##[data-testid="issue.views.issue-details.issue-layout.left-most-column"]:style(padding-left: 4px !important)
+atlassian.net##[data-testid="issue-view-product-templates-views.ui.content.tabs-section-heading-title"]:style(margin-left: 0 !important)
+atlassian.net##[data-testid="issue.views.issue-base.content.attachment.heading.section-heading-title"]:style(margin-left: 0 !important)
+
+! New Experience Exclusives
+atlassian.net##[data-testid="work-item-layout.content-section"] > div > div:has(>div[id="jira-issue-header"]):style(margin-left: 0 !important; padding-left: 4px !important; padding-right: 0 !important;)
+atlassian.net##[data-testid="work-item-layout.content-section"] > div > div:nth-child(2):style(padding-left: 4px !important; padding-right: 0 !important;)
+atlassian.net##[data-testid="work-item-layout.sidebar-section"] > div:style(padding-right: 0 !important)

@@ -1,7 +1,7 @@
 ! Title: Hide Atlassian AI Features
-! Description: Hides Atlassian's AI features across Jira and Confluence (WIP)
-! Version: 2026.10.30
-! Last modified: 2026-10.30 14:00
+! Description: Hides Atlassian's AI features across Jira and Confluence
+! Version: 2026.11.16
+! Last modified: 2026-11.16 13:00
 ! Expires: 1 day
 ! Homepage: https://github.com/mlmiltcheva/atlassian-ai-filter
 ! License: https://github.com/mlmiltcheva/atlassian-ai-filter/blob/main/LICENSE.md
