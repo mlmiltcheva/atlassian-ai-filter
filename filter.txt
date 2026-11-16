@@ -48,6 +48,8 @@ atlassian.net##button[data-testid="issue-smart-request-summary-trigger.ui.jira-s
 atlassian.net##div[aria-label="Quick comments"]
 atlassian.net##fieldset > div:has(button > span:has-text("Explain workflow"))
 atlassian.net##div[data-testid="ai-work-breakdown.ui.issue-breakdown-draft-list"]
+atlassian.net##[data-testid="highlight-actions.ui.popup-target.popup-dialog.action-items.define-button.define-button"]
+atlassian.net##[data-testid="highlight-actions.ui.popup-target.popup-dialog.popup-wrapper.popup--container"]
 
 ! Confluence
 atlassian.net##span[data-testid="app-navigation-ai-mate"]
@@ -63,3 +65,4 @@ atlassian.net##div[data-testid="search-page-results-list"] > div[role="listitem"
 atlassian.net##div[data-toolbar-component="section"]:has(button[data-testid="context-menu-rovo-chat-button"])
 atlassian.net##span[data-testid="definition-highlighter"]:remove-attr("style")
 atlassian.net##span[data-testid="definition-highlighter"]:style(pointer-events: none)
+atlassian.net##div[id="content-body"] > div:has([id="rovo-button-onboarding-spotlight"])
