@@ -1,7 +1,7 @@
 ! Title: Reclaim UI Space in Jira Cloud
 ! Description: Reclaim UI Space in Jira Cloud
-! Version: 2026.11.16
-! Last modified: 2026-11.16 13:00
+! Version: 2026.11.17
+! Last modified: 2026-11.17 08:00
 ! Expires: 1 day
 ! Homepage: https://github.com/mlmiltcheva/atlassian-ai-filter
 ! License: https://github.com/mlmiltcheva/atlassian-ai-filter/blob/main/LICENSE.md
@@ -15,6 +15,8 @@ atlassian.net##[data-testid="issue.views.issue-details.issue-layout.right-most-c
 
 ! Right sidebar slider
 atlassian.net##[data-testid="flex-resizer.ui.handle.resizer"]:style(width: 4px !important)
+atlassian.net##[data-testid="work-item-dynamic-field-mapper.pinned-fields-section"] div > div:has(label):style(margin-top: 0 !important; margin-bottom: 0 !important;)
+atlassian.net##[data-testid="work-item-dynamic-field-mapper.pinned-fields-section"] div[data-testid^="work-item-field."]:style(min-height: 25px !important)
 
 ! Main content
 atlassian.net##[data-testid="issue.views.issue-details.issue-layout.left-most-column"]:style(padding-left: 4px !important)
