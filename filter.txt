@@ -1,7 +1,7 @@
 ! Title: Hide Atlassian AI Features
 ! Description: Hides Atlassian's AI features across Jira and Confluence
-! Version: 2026.11.16
-! Last modified: 2026-11.16 13:00
+! Version: 2026.11.17
+! Last modified: 2026-11.17 10:30
 ! Expires: 1 day
 ! Homepage: https://github.com/mlmiltcheva/atlassian-ai-filter
 ! License: https://github.com/mlmiltcheva/atlassian-ai-filter/blob/main/LICENSE.md
@@ -65,4 +65,4 @@ atlassian.net##div[data-testid="search-page-results-list"] > div[role="listitem"
 atlassian.net##div[data-toolbar-component="section"]:has(button[data-testid="context-menu-rovo-chat-button"])
 atlassian.net##span[data-testid="definition-highlighter"]:remove-attr("style")
 atlassian.net##span[data-testid="definition-highlighter"]:style(pointer-events: none)
-atlassian.net##div[id="content-body"] > div:has([id="rovo-button-onboarding-spotlight"])
+atlassian.net##[id="rovo-button-onboarding-spotlight"]:nth-ancestor(1)
