@@ -17,11 +17,14 @@ atlassian.net##[data-testid="issue.views.issue-details.issue-layout.right-most-c
 atlassian.net##[data-testid="flex-resizer.ui.handle.resizer"]:style(width: 4px !important)
 atlassian.net##[data-testid="work-item-dynamic-field-mapper.pinned-fields-section"] div > div:has(label):style(margin-top: 0 !important; margin-bottom: 0 !important;)
 atlassian.net##[data-testid="work-item-dynamic-field-mapper.pinned-fields-section"] div[data-testid^="work-item-field."]:style(min-height: 25px !important)
+atlassian.net##div[data-testid="work-item-layout.layout-sidebar.sticky-status-container"]:style(padding-top: 0 !important; padding-bottom: 0 !important; margin-bottom: 0 !important;)
+atlassian.net##div[data-testid="status-category-actions-container.status-category-actions-container"]:style(background-color: initial !important; padding-left: 0 !important; padding-right: 0 !important;)
 
 ! Main content
 atlassian.net##[data-testid="issue.views.issue-details.issue-layout.left-most-column"]:style(padding-left: 4px !important)
 atlassian.net##[data-testid="issue-view-product-templates-views.ui.content.tabs-section-heading-title"]:style(margin-left: 0 !important)
 atlassian.net##[data-testid="issue.views.issue-base.content.attachment.heading.section-heading-title"]:style(margin-left: 0 !important)
+atlassian.net##h1[data-testid="work.item.summary.heading"]:style(font-size: 24px !important)
 
 ! New Experience Exclusives
 atlassian.net##[data-testid="work-item-layout.content-section"] > div > div:has(>div[id="jira-issue-header"]):style(margin-left: 0 !important; padding-left: 4px !important; padding-right: 0 !important;)
